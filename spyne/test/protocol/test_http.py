@@ -24,8 +24,8 @@ logging.basicConfig(level=logging.DEBUG)
 
 import unittest
 
-from spyne.util.six import StringIO
-from spyne.util.six.moves.http_cookies import SimpleCookie
+from six import StringIO
+from six.moves.http_cookies import SimpleCookie
 
 from datetime import datetime
 from wsgiref.validate import validator as wsgiref_validator

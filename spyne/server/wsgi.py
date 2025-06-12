@@ -34,8 +34,8 @@ from inspect import isgenerator
 from itertools import chain
 
 from spyne import Address, File, Fault
-from spyne.util.six.moves.http_cookies import SimpleCookie
-from spyne.util.six.moves.urllib.parse import unquote, quote
+from six.moves.http_cookies import SimpleCookie
+from six.moves.urllib.parse import unquote, quote
 
 from spyne.application import get_fault_string_from_exception
 from spyne.auxproc import process_contexts

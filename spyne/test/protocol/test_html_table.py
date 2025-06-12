@@ -176,7 +176,7 @@ class TestHtmlColumnTable(unittest.TestCase):
     def test_row_subprot(self):
         from lxml.html.builder import E
         from spyne.protocol.html import HtmlBase
-        from spyne.util.six.moves.urllib.parse import urlencode
+        from six.moves.urllib.parse import urlencode
         from spyne.protocol.html import HtmlMicroFormat
 
         class SearchProtocol(HtmlBase):

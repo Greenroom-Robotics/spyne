@@ -31,7 +31,7 @@ from spyne.model.fault import Fault
 from spyne.model.complex import ComplexModelBase
 from spyne.util.django import (DjangoComplexModel, DjangoComplexModelMeta,
                                email_re)
-from spyne.util.six import add_metaclass
+from six import add_metaclass
 
 from rpctest.core.models import (FieldContainer, RelatedFieldContainer,
                                  UserProfile as DjUserProfile)

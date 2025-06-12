@@ -36,7 +36,7 @@ import base64
 
 from pprint import pformat
 
-from spyne.util.six.moves.http_cookies import SimpleCookie
+from six.moves.http_cookies import SimpleCookie
 
 # bcrypt seems to be among the latest consensus around cryptograpic circles on
 # storing passwords.

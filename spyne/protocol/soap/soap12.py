@@ -30,7 +30,7 @@ from lxml.builder import E
 
 from spyne.protocol.soap.soap11 import Soap11
 from spyne.protocol.xml import _append
-from spyne.util.six import string_types
+from six import string_types
 from spyne.util.etreeconv import root_dict_to_etree
 from spyne.const.xml import NS_SOAP12_ENV, NS_XML, PREFMAP
 

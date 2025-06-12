@@ -25,7 +25,7 @@ import unittest
 from spyne.model.complex import (ComplexModel, ComplexModelMeta,
                                  ComplexModelBase, Array)
 from spyne.model.primitive import Unicode, Integer, String
-from spyne.util.six import add_metaclass
+from six import add_metaclass
 
 
 class DeclareOrder_declare(ComplexModel.customize(declare_order='declared')):

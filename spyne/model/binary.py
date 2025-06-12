@@ -40,7 +40,7 @@ from spyne.util import _bytes_join
 from spyne.model import ComplexModel, Unicode
 from spyne.model import SimpleModel
 from spyne.util import six
-from spyne.util.six import BytesIO, StringIO
+from six import BytesIO, StringIO
 
 class BINARY_ENCODING_HEX: pass
 class BINARY_ENCODING_BASE64: pass

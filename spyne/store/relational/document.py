@@ -52,7 +52,7 @@ from spyne import ValidationError
 from spyne.model.relational import FileData
 
 from spyne.util import six
-from spyne.util.six import binary_type, text_type, BytesIO, StringIO
+from six import binary_type, text_type, BytesIO, StringIO
 from spyne.util.fileproxy import SeekableFileProxy
 
 

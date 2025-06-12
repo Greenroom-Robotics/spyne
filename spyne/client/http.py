@@ -21,8 +21,8 @@
 
 from spyne import RemoteService, ClientBase, RemoteProcedureBase
 
-from spyne.util.six.moves.urllib.request import Request, urlopen
-from spyne.util.six.moves.urllib.error import HTTPError
+from six.moves.urllib.request import Request, urlopen
+from six.moves.urllib.error import HTTPError
 
 
 class _RemoteProcedure(RemoteProcedureBase):

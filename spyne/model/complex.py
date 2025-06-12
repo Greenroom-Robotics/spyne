@@ -50,7 +50,7 @@ from spyne.util import six, memoize, memoize_id, sanitize_args, \
 from spyne.util.color import YEL
 from spyne.util.meta import Prepareable
 from spyne.util.odict import odict
-from spyne.util.six import add_metaclass, with_metaclass, string_types
+from six import add_metaclass, with_metaclass, string_types
 
 # FIXME: for backwards compatibility, to be removed in Spyne 3
 # noinspection PyUnresolvedReferences

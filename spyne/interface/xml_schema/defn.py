@@ -17,7 +17,7 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301
 #
 
-from spyne.util.six import add_metaclass
+from six import add_metaclass
 
 from spyne.const import xml
 from spyne.model.primitive import Boolean, AnyHtml

@@ -30,7 +30,7 @@ from inspect import isgenerator
 
 from spyne.util import Break, coroutine
 from spyne.util.oset import oset
-from spyne.util.six import string_types
+from six import string_types
 from spyne.util.color import R, B
 from spyne.model import Array, AnyXml, AnyHtml, ModelBase, ComplexModelBase, \
     PushBase, XmlAttribute, AnyUri, XmlData, Any

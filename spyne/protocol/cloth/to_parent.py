@@ -23,7 +23,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 from inspect import isgenerator
-from spyne.util.six.moves.collections_abc import Iterable
+from six.moves.collections_abc import Iterable
 
 from lxml import etree, html
 from lxml.builder import E
@@ -40,7 +40,7 @@ from spyne.util.cdict import cdict
 from spyne.util.etreeconv import dict_to_etree
 from spyne.util.color import R, B
 
-from spyne.util.six import string_types
+from six import string_types
 
 
 class ToParentMixin(OutProtocolBase):

@@ -22,7 +22,7 @@ from spyne.server.wsgi import WsgiApplication
 from spyne.service import Service
 from spyne.test.protocol.test_soap11 import TestService, TestSingle, \
     TestReturn, MultipleReturnService
-from spyne.util.six import BytesIO
+from six import BytesIO
 
 
 def start_response(code, headers):

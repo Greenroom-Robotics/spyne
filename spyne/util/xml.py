@@ -38,7 +38,7 @@ from spyne.protocol.cloth import XmlCloth
 
 from spyne.protocol.xml import XmlDocument
 from spyne.util.appreg import unregister_application
-from spyne.util.six import BytesIO
+from six import BytesIO
 from spyne.util.tlist import tlist
 
 

@@ -31,7 +31,7 @@ from spyne import MethodContext, TransportContext, Address
 from spyne.auxproc import process_contexts
 from spyne.error import ValidationError, InternalError
 from spyne.server import ServerBase
-from spyne.util.six import binary_type
+from six import binary_type
 
 try:
     from twisted.internet.defer import Deferred

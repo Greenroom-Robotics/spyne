@@ -21,3 +21,4 @@ pyparsing>=2.0.2
 suds-community
 zeep
 pandas
+six

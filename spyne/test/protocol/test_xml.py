@@ -41,7 +41,7 @@ from spyne.service import Service
 from spyne.server import ServerBase
 from spyne.application import Application
 from spyne.decorator import srpc
-from spyne.util.six import BytesIO
+from six import BytesIO
 from spyne.model import Fault, Integer, Decimal, Unicode, Date, DateTime, \
     XmlData, Array, ComplexModel, XmlAttribute, Mandatory as M
 from spyne.protocol.xml import XmlDocument, SchemaValidationError

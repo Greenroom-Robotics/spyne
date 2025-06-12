@@ -38,7 +38,7 @@ from spyne.model.complex import ComplexModel
 from spyne.model.primitive import Unicode
 from spyne.protocol.msgpack import MessagePackDocument
 from spyne.protocol.msgpack import MessagePackRpc
-from spyne.util.six import BytesIO
+from six import BytesIO
 from spyne.server import ServerBase
 from spyne.server.wsgi import WsgiApplication
 from spyne.test.protocol._test_dictdoc import TDictDocumentTest

@@ -48,7 +48,7 @@ OUT_REQUEST = 1
 import socket
 import msgpack
 
-from spyne.util.six import BytesIO
+from six import BytesIO
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(("localhost", 5550))

@@ -33,7 +33,7 @@ from spyne.protocol import ProtocolMixin
 
 from spyne.protocol.cloth.to_parent import ToParentMixin
 from spyne.protocol.cloth.to_cloth import ToClothMixin
-from spyne.util.six import BytesIO
+from six import BytesIO
 from spyne.util.color import R, B
 from spyne.util.tlist import tlist
 

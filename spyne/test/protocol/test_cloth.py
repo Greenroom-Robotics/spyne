@@ -31,7 +31,7 @@ from spyne import ComplexModel, XmlAttribute, Unicode, Array, Integer, \
     SelfReference, XmlData
 from spyne.protocol.cloth import XmlCloth
 from spyne.test import FakeContext
-from spyne.util.six import BytesIO
+from six import BytesIO
 
 
 class TestModelCloth(unittest.TestCase):

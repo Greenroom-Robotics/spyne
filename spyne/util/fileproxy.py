@@ -23,7 +23,7 @@
 
 import os
 
-from spyne.util.six.moves.collections_abc import Iterator
+from six.moves.collections_abc import Iterator
 
 __all__ = 'FileProxy', 'ReusableFileProxy', 'SeekableFileProxy'
 

@@ -24,7 +24,7 @@ import spyne.const
 
 from spyne.model.primitive import Any
 
-from spyne.util.six import add_metaclass
+from six import add_metaclass
 
 from spyne.model.complex import ComplexModelMeta
 from spyne.model.complex import ComplexModelBase

@@ -49,7 +49,7 @@ from spyne.model.complex import ComplexModelMeta, ComplexModelBase
 from spyne.service import Service
 from spyne.util.cdict import cdict
 from spyne.util.odict import odict
-from spyne.util.six import add_metaclass
+from six import add_metaclass
 
 
 # regex is based on http://www.w3.org/TR/xforms20/#xforms:email

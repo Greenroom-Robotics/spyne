@@ -46,7 +46,7 @@ from lxml.etree import XMLParser
 from spyne import BODY_STYLE_WRAPPED
 
 from spyne.util import Break, coroutine
-from spyne.util.six import text_type, string_types
+from six import text_type, string_types
 from spyne.util.cdict import cdict
 from spyne.util.etreeconv import etree_to_dict, dict_to_etree,\
     root_dict_to_etree

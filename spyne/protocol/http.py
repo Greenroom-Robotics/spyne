@@ -35,7 +35,7 @@ import tempfile
 
 from spyne import BODY_STYLE_WRAPPED, MethodDescriptor, PushBase
 from spyne.util import six, coroutine, Break
-from spyne.util.six import string_types, BytesIO
+from six import string_types, BytesIO
 from spyne.error import ResourceNotFoundError
 from spyne.model.binary import BINARY_ENCODING_URLSAFE_BASE64, File
 from spyne.model.primitive import DateTime

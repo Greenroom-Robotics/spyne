@@ -35,7 +35,7 @@ from spyne.const.xml import NS_XSD, XSD
 from spyne.util import memoize
 from spyne.util.cdict import cdict
 from spyne.util.etreeconv import dict_to_etree
-from spyne.util.six import string_types
+from six import string_types
 from spyne.protocol.xml import XmlDocument
 _prot = XmlDocument()
 

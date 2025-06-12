@@ -88,8 +88,8 @@ from spyne.server.twisted._base import Producer
 from spyne.server.twisted import log_and_let_go
 
 from spyne.util.address import address_parser
-from spyne.util.six import text_type, string_types
-from spyne.util.six.moves.urllib.parse import unquote
+from six import text_type, string_types
+from six.moves.urllib.parse import unquote
 
 if not six.PY2:
     from urllib.request import unquote_to_bytes

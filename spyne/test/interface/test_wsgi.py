@@ -20,7 +20,7 @@
 import unittest
 
 from spyne.util import six
-from spyne.util.six import StringIO
+from six import StringIO
 
 from spyne.protocol.soap.soap11 import Soap11
 from spyne.server.wsgi import WsgiApplication
